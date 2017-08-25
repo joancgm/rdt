@@ -1,0 +1,4 @@
+64 64 0.          / jmax,kmax,sfix
+0. 0. 0. 10. 0. 0. 0. 0. 0. / dudy
+0. 0. 5.                  / rot
+.005 1.2 .001 .0            / dtout,tmax,tolf,tolmin
