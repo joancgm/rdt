@@ -1,0 +1,34 @@
+data/lr1985.plstrainso44.dns
+../out/out.planestrain
+../out/out.planestrain.LRso44
+'    '
+
+ 6.5 9.25 2 5.5 1   0  0  0 .2 /x1,x2,y1,y2,ICBOX,ICGRID,NYPAG,nymin,hchar
+' St ' 0. 3 1
+'k/ko' 0 2 .5
+'../out/out.planestrain' beta 0 1 kdk0 0 1 1 ' ' 
+'../out/out.planestrain.LRso44' beta 0 1 kdk0 0 1 -1 ' ' 
+0 1 2 .1 .1 -1. /
+'data/lr1985.plstrainso44.dns' t 0 50 'qq' 0  15.35 'o'
+1 0 2 1 -1. /
+'     ' /
+
+ 1.5 4.25 2 5.5 1   0  1  0 .2 /x1,x2,y1,y2,ICBOX,ICGRID,NYPAG,nymin,hchar
+' St ' 0. 3 1
+'bij' -.3 .3 .1
+'../out/out.planestrain' beta 0 1 b11 0 1 2 ' ' 
+'../out/out.planestrain' beta 0 1 b22 0 1 5 ' ' 
+'../out/out.planestrain' beta 0 1 b33 0 1 26 ' ' 
+'../out/out.planestrain.LRso44' beta 0 1 b11 0 1 -1 ' ' 
+0 2 2 .1 .1 -1. /
+'../out/out.planestrain.LRso44' beta 0 1 b22 0 1 -5 ' ' 
+0 5 2 .1 .1 -1. /
+'../out/out.planestrain.LRso44' beta 0 1 b33 0 1 -26 ' ' 
+0 26 2 .1 .1 -1. /
+'data/lr1985.plstrainso44.dns' 't' 0 50 'b11' 0 1 -1 'o'
+26 0 2 .05 .05 -1. /
+'data/lr1985.plstrainso44.dns' 't' 0 50 'b22' 0 1 -1 'o'
+5 0 2 .05 .05 -1. /
+'data/lr1985.plstrainso44.dns' 't' 0 50 'b33' 0 1 -1 'o'
+2 0 2 .05 .05 -1. /
+

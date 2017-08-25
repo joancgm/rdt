@@ -1,0 +1,12 @@
+f77 -o a.rdt rdt.oneksets.f 
+
+./a.rdt < in.rdt/in.shear.vort0 > out/out.shear.vort0
+
+./a.rdt < in.rdt/in.shear.rot0 > out/out.shear.rot0
+./a.rdt < in.rdt/in.shear.slkm > out/out.shear.slkm
+
+./a.rdt < in.rdt/in.planestrain > out/out.planestrain
+./a.rdt < in.rdt/in.planestrain.LRso44 > out/out.planestrain.LRso44
+./a.rdt < in.rdt/in.planestrain.LRso1.16 > out/out.planestrain.LRso1.16
+./a.rdt < in.rdt/in.planestrain.LRso2.31 > out/out.planestrain.LRso2.31
+./a.rdt < in.rdt/in.planestrain.LRso4.62 > out/out.planestrain.LRso4.62
